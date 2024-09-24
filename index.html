@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neolonck</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav-mobil.css">
+</head>
+
+<body id="root">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Neonlak Logo">
+            </div>
+            <div class="link-mobil">
+                <div>
+                    <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="link">
+                <nav>
+                    <ul>
+                        <li><a href="#">O NÁS</a></li>
+                        <li><a href="#">KVALITA A CERTIFIKACE</a></li>
+                        <li><a href="#">NAŠE SLUŽBY</a></li>
+                        <li><a href="#">PRÁCE A KARIÉRA</a></li>
+                        <li><a href="#">REFERENCE</a></li>
+                        <li><a href="#">KONTAKT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <nav class="nav-mobil" id="topnav_responsive_menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="div-un"> O NÁS </div>
+                        <div class="div-tree"><svg class="icon_right-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="div-un"> KVALITA A CERTIFIKACE </div>
+                        <div class="div-tree"><svg class="icon_right-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="div-un"> NAŠE SLUŽBY </div>
+                        <div class="div-tree"><svg class="icon_right-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="div-un"> PRÁCE A KARIÉRA </div>
+                        <div class="div-tree"><svg class="icon_right-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="div-un"> REFERENCE </div>
+                        <div class="div-tree"><svg class="icon_right-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="div-un"> KONTAKT</div>
+                        <div class="div-tree"><svg class="icon_right-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Job Section -->
+        <section class="job-offer">
+            <h1>PRÁCE V ODDĚLENÍ BACK OFFICE</h1>
+            <p>Chcete v práci respekt a úctu? Nabízíte chuť pracovat a disciplínu? Jste loajální? Můžeme si vzájemně věřit? Doplňte náš FIREMNÍ TÝM, máme práci i pro Vás.</p>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="gallery">
+            <h2>FOTOGALERIE – pracujeme v NEONLAKU</h2>
+            <div class="gallery_div">
+                <div class="silder">
+                    <div class="silder-contenu">
+                        <div class="silder-contenu-div"><img class="silder-img" src="galery/f1.jpg" alt="Photo 1"></div>
+                        <div class="silder-contenu-div"><img class="silder-img" src="galery/f2.jpg" alt="Photo 2"></div>
+                        <div class="silder-contenu-div"><img class="silder-img" src="galery/f3.jpg" alt="Photo 3"></div>
+                        <div class="silder-contenu-div"><img class="silder-img" src="galery/f4.jpg" alt="Photo 4"></div>
+                        <div class="silder-contenu-div"><img class="silder-img" src="galery/f5.jpg" alt="Photo 5"></div>
+                        <div class="silder-contenu-div"><img class="silder-img" src="galery/f6.jpg" alt="Photo 6"></div>
+                        <div class="silder-contenu-div"><img class="silder-img" src="galery/f1.jpg" alt="Photo 4"></div>
+                    </div>
+                    <button class="defil-btn left-btn" onclick="defiementgauche()">
+                        <svg class="icon_slider"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="15 6 9 12 15 18" /></svg>
+                    </button>
+                    <button class="defil-btn right-btn" onclick="defiementdroite()">
+                        <svg class="icon_slider"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg>
+                    </button>
+                </div>
+                <div class="photo-grid">
+                    <img src="galery/f1.jpg" alt="Photo 1">
+                    <img src="galery/f2.jpg" alt="Photo 2">
+                    <img src="galery/f3.jpg" alt="Photo 3">
+                    <img src="galery/f4.jpg" alt="Photo 4">
+                    <img src="galery/f5.jpg" alt="Photo 5">
+                    <img src="galery/f6.jpg" alt="Photo 6">
+                    <img src="galery/f1.jpg" alt="Photo 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Job Listings -->
+        <section class="job-listings">
+            <h2>Aktuální výběrová řízení – NABÍDKA VOLNÝCH PRACOVNÍCH MÍST:</h2>
+            <div class="job-buttons">
+                <a href="#" class="btn">
+                    <div class="btn-div">
+                        <div class="text-div">
+                            <h4>ASISTENT/KA KVALITY</h4>
+                            <p class="asit">(K/ADP/203)</p>
+                        </div>
+                        <div class="icon-div ">
+                            <svg class="icon_right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="btn">
+                    <div class="btn-div">
+                        <div class="text-div">
+                            <h4>PRACOVNÍK/CE VSTUPNÍ A VÝSTUPNÍ KONTROLY</h4>
+                            <p class="prat">K/KOR/201</p>
+                        </div>
+                        <div class="icon-div">
+                            <svg class="icon_right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <polyline points="9 18 15 12 9 6" /></svg>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-info">
+            <p>I pokud jste si nevybrali z právě nabízených volných míst a nechcete se účastnit konkrétního výběrového řízení, nebo právě žádné výběrové řízení neprobíhá, můžete nám zaslat svou profesní nabídku za účelem eventuální budoucí nabídky zaměstnání.
+            </p>
+            <h3>DEJTE NÁM O SOBĚ VĚDĚT. TĚŠÍME SE NA VÁŠ ŽIVOTOPIS A PŘÍPADNOU SPOLUPRÁCI.</h3>
+            <form class="contact-form" action="#">
+                <div class="div-form">
+                    <div class="div-form-one">
+                        <input type="text" placeholder="Jméno" required>
+                        <input type="text" placeholder="Příjmení" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="tel" placeholder="Telefon" required>
+                    </div>
+                    <textarea placeholder="Vaše zpráva" required></textarea>
+                    <div class="div-form-file">
+                        <div class="div-form-file-input">
+                            <input type="file" id="fileUpload" class="file-upload">
+                            <label for="fileUpload" class="file-label">Vybrat soubor</label><br>
+                            <p id="fileName" class="file-name">Soubor nevybeán</p>
+                        </div>
+                        <div class="div-form-file-nb">
+                            <p>Příloha (soubor CV - maximálně 10Mb)</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="div-nb">
+                    <p>
+                        Kliknutím na níže uvedené tlačítko "Odeslat profesní nabídku" souhlasím se zpracováním a uchováním mých osobních údajů, konkrétně identifikačních, kontaktních a CV, které poskytuji společnosti NEONLAK spol. s r.o. (IČ: 25053426). Osobní údaje budou zpracovány
+                        v souladu s nařízením Evropského parlamentu a rady (EU) 2016/679 ze dne 27.4.2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů („GDPR“). Tyto údaje poskytuji společnosti NEONLAK
+                        spol. s r.o. (IČ: 25053426) výhradně za účelem eventuální budoucí nabídky zaměstnání a to na dobu 6 měsíců od jejich předání. Tento souhlas uděluji dobrovolně a jsem si vědom/a, že jej mohu kdykoliv odvolat a to prostřednictvím
+                        emailu gdpr@neonlak.cz
+                    </p>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="agree1" required>
+                        <label for="agree1">Souhlasím se <a href="">zásadami zpracování osobních údajů</a></label><br>
+                        <input type="checkbox" id="agree2">
+                        <label for="agree2">Souhlasím aby moje osobní údaje byly ponechány v databázi pro případ, že by byla otevřena vhodná pozice.</label>
+                    </div>
+                    <button type="submit">Odeslat</button>
+                </div>
+
+            </form>
+            </div>
+        </section>
+
+        <!-- Agence Info -->
+        <section class="agence-info">
+            <div class="agence-info-nb">
+                <h2>V PŘÍPADĚ VAŠICH DOTAZŮ NÁS NEVÁHEJTE KONTAKTOVAT:</h2>
+                <p>
+                    Naši nabídku volných pracovních míst můžete doporučit i svému známému, pokud víte o jeho odhodlání využít svůj potenciál a být loajální k dobrému zaměstnavateli. Stačí ho informovat o
+                    <a href="">nabídce volných míst</a> .
+                </p>
+            </div>
+            <div class="agence-info-contact">
+                <a href="">
+                    <div>
+                        <svg class="" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                        <span>+420 326 236 322</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div>
+                        <svg class="" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
+                        <span> <span>prace@neonlak.cz</span></span>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <hr class="hr-primery">
+    <hr class="hr-second">
+    <footer>
+        <div class="footer-content">
+            <div>
+                <a class="" href="">
+                    <img class="" src="img/logo-footer.svg" alt="Neonlak">
+                </a>
+                <h6 class="location">
+                    <svg class="h-8 w-8 text-red-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="11" r="3" />  <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" /></svg>
+                    <span>Ptácká 297, 293 01 Mladá Boleslav</span>
+                </h6>
+                <h6 class="location">
+                    <svg class="" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                    <span>+420 326 236 322</span>
+                </h6>
+                <h6 class="location">
+                    <svg class="" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
+                    <span> <span>prace@neonlak.cz</span></span>
+                </h6>
+            </div>
+            <div>
+                <h3>REFERENCE</h3>
+                <h6 class="reference">
+                    <a href="">Kontakt</a>
+                </h6>
+                <h6 class="reference">
+                    <a href="">Certifikace</a>
+                </h6>
+                <h6 class="reference">
+                    <a href="">Kariéra</a>
+                </h6>
+            </div>
+            <div>
+                <h3>Sociální sítě</h3>
+                <div class="social">
+                    <a href="">
+                        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                    </a>
+                    <a href="">
+                        <svg class="" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="4" y="4" width="16" height="16" rx="4" />  <circle cx="12" cy="12" r="3" />  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" /></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-div">
+                <div class="ordi-block">
+                    <p>Všechna práva vyhrazena © 2024, Neonlak spol. s r. o.</p>
+                </div>
+                <div class="gdpr-link">
+                    <a href="">Zásady GDPR</a>
+                </div>
+                <div class="created-by">
+                    <p>
+                        Proudly created by <a href="">draftspot.net</a>
+                    </p>
+                </div>
+                <div class="mobil-block">
+                    <p>Všechna práva vyhrazena © 2024, Neonlak spol. s r. o.</p>
+                </div>
+            </div>
+            </section>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    let currentIndex = 0;
+    let tempdefiauto;
+    const defilement = document.querySelector(".silder-contenu");
+    const totaldefil = document.querySelectorAll(".silder-contenu-div").length;
+
+    function defiementgauche() {
+        autodefilstop()
+        currentIndex = (currentIndex - 1 + totaldefil) % totaldefil;
+        modifidefilement();
+        autodefil();
+    }
+
+    function defiementdroite() {
+        autodefilstop()
+        currentIndex = (currentIndex + 1) % totaldefil;
+        modifidefilement();
+        autodefil();
+
+
+    }
+
+    function autodefil() {
+        tempdefiauto = setInterval(defiementdroite, 4000);
+    }
+
+    function autodefilstop() {
+        clearInterval(tempdefiauto);
+    }
+
+    function modifidefilement() {
+        defilement.style.transform = `translateX(-${currentIndex * 14.30}%)`;
+    }
+
+    autodefil();
+</script>
+<script>
+    const fileUpload = document.getElementById('fileUpload');
+    const fileNameDisplay = document.getElementById('fileName');
+
+    fileUpload.addEventListener('change', function() {
+        const fileName = this.files.length ? this.files[0].name : 'Aucun fichier sélectionné';
+        fileNameDisplay.textContent = fileName;
+    });
+</script>
+<script>
+    function showResponsiveMenu() {
+        var menu = document.getElementById("topnav_responsive_menu");
+        var icon = document.getElementById("topnav_hamburger_icon");
+        var root = document.getElementById("root");
+        var bodyId = document.getElementById("body-id");
+        if (menu.className === "") {
+            menu.className = "open";
+            icon.className = "open";
+            root.style.overflowY = "hidden";
+        } else {
+            menu.className = "";
+            icon.className = "";
+            root.style.overflowY = "";
+        }
+    }
+</script>
